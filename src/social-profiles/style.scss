@@ -1,0 +1,51 @@
+/*
+* Style Works for both Editor and Frontend
+*/
+
+.wp-block-spb-social-profiles {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+
+	// single profile
+	.wp-block-spb-profile {
+		.spb__icon a {
+			display: block;
+			height: 100%;
+			width: 100%;
+			text-decoration: none !important;
+			img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+				vertical-align: top;
+			}
+		}
+	}
+
+	// icon sizes
+	@for $i from 1 to 101 {
+		&.spb-size-#{$i} {
+			.wp-block-spb-profile {
+				width: #{$i}px;
+				.spb__icon span.dashicons {
+					width: #{$i}px;
+					height: #{$i}px;
+					font-size: #{$i}px;
+				}
+			}
+		}
+	}
+
+	// icon spacing
+	@for $i from 1 to 101 {
+		&.spb-spacing-#{$i} {
+			margin-left: calc(-#{$i}px / 2);
+			margin-right: calc(-#{$i}px / 2);
+			.wp-block-spb-profile {
+				margin-left: calc(#{$i}px / 2);
+				margin-right: calc(#{$i}px / 2);
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+/*
+* Style Works for both Editor and Frontend
+*/
+.wp-block-ucla-button {
+	a {
+		display: inline-block;
+		text-decoration: none !important;
+		font-size: 1rem;
+		.ucla__button_icon_before {
+			margin-right: 10px;
+		}
+		.ucla__button_icon_after {
+			margin-left: 10px;
+		}
+	}
+	.dashicons,
+	.dashicons-before:before {
+		vertical-align: middle !important;
+	}
+}

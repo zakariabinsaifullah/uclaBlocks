@@ -1,0 +1,16 @@
+/*
+* Style Works for both Editor and Frontend
+*/
+.wp-block-ucla-card {
+	.card-content {
+		margin: 15px 0;
+		p {
+			margin-bottom: 1.5em;
+		}
+		@for $i from 1 to 7 {
+			h#{$i} {
+				margin-bottom: 1.5em;
+			}
+		}
+	}
+}

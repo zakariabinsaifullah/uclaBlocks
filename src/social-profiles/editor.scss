@@ -1,0 +1,78 @@
+/*
+* Style Works for Editor Only
+*/
+
+/*
+* Admin CSS 
+*/
+
+.spb__title {
+	font-size: 15px !important;
+	line-height: 1 !important;
+	margin-bottom: 10px !important;
+}
+
+.spb-icon-selector {
+	margin-bottom: 10px !important;
+}
+
+.spb-selected-icon {
+	border: 1px solid #ddd;
+	padding: 6px;
+	cursor: pointer;
+}
+
+ul.spb-icons-list {
+	margin-top: -1px !important;
+	flex-wrap: wrap;
+	border: 1px solid #ccc;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 10px 0;
+	display: none;
+	&.show__icons {
+		display: flex;
+	}
+}
+
+ul.spb-icons-list li {
+	width: 22%;
+	border: 1px solid #ccc;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+ul.spb-icons-list li.selected {
+	background: #1e1e1e;
+	color: #fff;
+}
+
+.sbg__button {
+	margin-bottom: 20px !important;
+}
+
+.sbg__button {
+	margin-bottom: 20px !important;
+}
+
+/*
+* Block Style
+*/
+
+.wp-block-spb-social-profiles {
+	.block-editor-block-list__layout {
+		display: flex;
+		width: 100%;
+	}
+	.wp-block-spb-profile.no-icon-added {
+		width: 100% !important;
+		margin-left: 10px;
+	}
+	.block-list-appender.wp-block {
+		right: -35px;
+		top: 50%;
+		margin-top: -12px !important;
+	}
+}

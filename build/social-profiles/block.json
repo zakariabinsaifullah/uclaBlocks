@@ -1,0 +1,29 @@
+{
+	"apiVersion": 2,
+	"name": "spb/social-profiles",
+	"version": "0.1.0",
+	"title": "Social Profiles",
+	"category": "ucla-blocks",
+	"description": "Display social profiles",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"size": {
+			"type": "number",
+			"default": 25
+		},
+		"spacing": {
+			"type": "number",
+			"default": 10
+		},
+		"align": {
+			"type": "string",
+			"default": "flex-start"
+		}
+	},
+	"textdomain": "ucla-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

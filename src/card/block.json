@@ -1,0 +1,58 @@
+{
+	"apiVersion": 2,
+	"name": "ucla/card",
+	"version": "0.1.0",
+	"title": "Card",
+	"category": "ucla-blocks",
+	"description": "Showcase card with image, title, and description",
+	"keywords": ["Card", "Image", "Title", "Description"],
+	"supports": {
+		"html": false,
+		"anchor": true
+	},
+	"attributes": {
+		"id": {
+			"type": "number"
+		},
+		"url": {
+			"type": "string"
+		},
+		"alt": {
+			"type": "string"
+		},
+		"title": {
+			"type": "string"
+		},
+		"titleTag": {
+			"type": "string",
+			"default": "h2"
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"titleAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"description": {
+			"type": "string"
+		},
+		"descriptionColor": {
+			"type": "string",
+			"default": "#333333"
+		},
+		"descriptionAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"showButton": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"textdomain": "ucla-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,82 @@
+{
+	"apiVersion": 2,
+	"name": "ucla/button",
+	"version": "0.1.0",
+	"title": "Button",
+	"category": "ucla-blocks",
+	"description": "Advanced iconic button",
+	"keywords": ["Button", "Iconic", "UCLA"],
+	"supports": {
+		"html": false,
+		"anchor": true
+	},
+	"attributes": {
+		"id": {
+			"type": "string"
+		},
+		"topBottom": {
+			"type": "number",
+			"default": 10
+		},
+		"leftRight": {
+			"type": "number",
+			"default": 20
+		},
+		"borderRadius": {
+			"type": "number",
+			"default": 3
+		},
+		"align": {
+			"type": "string",
+			"default": "left"
+		},
+		"label": {
+			"type": "string",
+			"default": "Button"
+		},
+		"link": {
+			"type": "string",
+			"default": "#"
+		},
+		"tab": {
+			"type": "boolean",
+			"default": false
+		},
+		"showIcon": {
+			"type": "boolean",
+			"default": false
+		},
+		"icon": {
+			"type": "string",
+			"default": "arrow-right"
+		},
+		"iconPosition": {
+			"type": "string",
+			"default": "after"
+		},
+		"btnNormalColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"btnHoverColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"btnNormalBgColor": {
+			"type": "string",
+			"default": "#006BA1"
+		},
+		"btnHoverBgColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"fontSize": {
+			"type": "number",
+			"default": 16
+		}
+	},
+	"textdomain": "ucla-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
